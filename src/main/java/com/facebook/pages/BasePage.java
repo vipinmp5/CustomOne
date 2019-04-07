@@ -28,6 +28,7 @@ public class BasePage extends BasePageGenerator {
         if(elementAttr.getClass().getName().contains("By")) {
             driver.findElement((By) elementAttr).click();
         } else {
+        	wait.until(ExpectedConditions.visibilityOf(((WebElement) elementAttr)));
             ((WebElement) elementAttr).click();
         }
     }

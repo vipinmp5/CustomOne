@@ -1,0 +1,12 @@
+com\wallet\hub\java\pages\FacebookLoginPage.class
+com\wallet\hub\java\util\PropertyManager.class
+com\wallet\hub\java\pages\FacebookHomePage.class
+com\wallet\hub\java\util\JSInducer.class
+com\wallet\hub\java\pages\BasePageGenerator.class
+com\wallet\hub\java\util\ExcelUtility.class
+com\wallet\hub\java\util\Log.class
+com\wallet\hub\java\util\ExcelUtil.class
+com\wallet\hub\java\util\Utility.class
+com\wallet\hub\java\util\JSUtilities.class
+com\wallet\hub\java\pages\BasePage.class
+com\wallet\hub\java\util\ActionCreater.class

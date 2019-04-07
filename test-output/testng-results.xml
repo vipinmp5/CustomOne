@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Wallet" duration-ms="44664" started-at="2019-04-07T06:03:13Z" finished-at="2019-04-07T06:03:58Z">
+    <groups>
+    </groups>
+    <test name="Tests" duration-ms="44664" started-at="2019-04-07T06:03:13Z" finished-at="2019-04-07T06:03:58Z">
+      <class name="com.facebook.test.FaceBookSignUpTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.facebook.test.FaceBookSignUpTest@61862a7f]" name="setup" is-config="true" duration-ms="4573" started-at="2019-04-07T06:03:13Z" finished-at="2019-04-07T06:03:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validCredentialsSignUpTest()[pri:0, instance:com.facebook.test.FaceBookSignUpTest@61862a7f]" name="validCredentialsSignUpTest" duration-ms="39361" started-at="2019-04-07T06:03:18Z" finished-at="2019-04-07T06:03:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validCredentialsSignUpTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.facebook.test.FaceBookSignUpTest@61862a7f]" name="teardown" is-config="true" duration-ms="691" started-at="2019-04-07T06:03:57Z" finished-at="2019-04-07T06:03:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.facebook.test.FaceBookSignUpTest -->
+    </test> <!-- Tests -->
+  </suite> <!-- Wallet -->
+</testng-results>

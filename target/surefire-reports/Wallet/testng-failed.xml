@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Wallet]">
+  <listeners>
+    <listener class-name="com.facebook.test.TestListener"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="Tests(failed)">
+    <classes>
+      <class name="com.facebook.test.FaceBookSignUpTest">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="validCredentialsSignUpTest"/>
+        </methods>
+      </class> <!-- com.facebook.test.FaceBookSignUpTest -->
+    </classes>
+  </test> <!-- Tests(failed) -->
+</suite> <!-- Failed suite [Wallet] -->

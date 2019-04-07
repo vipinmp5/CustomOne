@@ -87,6 +87,7 @@ public class BasePage extends BasePageGenerator {
         if(elementAttr.getClass().getName().contains("By")) {
             return driver.findElement((By) elementAttr).getText();
         } else {
+        	wait.until(ExpectedConditions.visibilityOf(((WebElement) elementAttr)));
             return ((WebElement) elementAttr).getText();
         }
     }
